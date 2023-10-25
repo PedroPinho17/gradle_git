@@ -4,3 +4,12 @@
  * This is a general purpose Gradle build.
  * To learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.4/samples
  */
+
+ plugins{
+    id 'java' //saber que estou a trabalhar em java
+    id 'application' //usar a biblitaca da application
+ }
+
+ application{
+    mainClass ='Teste.demo' // definir a main
+}
